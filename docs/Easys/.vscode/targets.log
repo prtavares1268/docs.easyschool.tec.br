@@ -1,0 +1,314 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Feb 22 11:39:13 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+ 
+# environment
+DESKTOP_SESSION = pop
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = pop
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/ryco/Documentos/Easys
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"54c17d0348e5e6468065dc7b6e562127.pt-br","_translationsConfigFile":"/home/ryco/.config/Code/clp/54c17d0348e5e6468065dc7b6e562127.pt-br/tcf.json","_cacheRoot":"/home/ryco/.config/Code/clp/54c17d0348e5e6468065dc7b6e562127.pt-br","_resolvedLanguagePackCoreLocation":"/home/ryco/.config/Code/clp/54c17d0348e5e6468065dc7b6e562127.pt-br/f80445acd5a3dadef24aa209168452a3d97cc326","_corruptedFile":"/home/ryco/.config/Code/clp/54c17d0348e5e6468065dc7b6e562127.pt-br/corrupted.info","_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:43717
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-pop:/etc/xdg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = ryco
+# environment
+XDG_DATA_DIRS = /usr/share/pop:/home/ryco/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=4bdaa245967ff67410e1c6b36214eb8b
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 9)
+BUILDDIR = build
+# environment
+_ = /usr/share/code/code
+# environment
+MANAGERPID = 1916
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/ryco
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/ryco/.local/bin:/home/ryco/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/2785,unix/pop-os:/tmp/.ICE-unix/2785
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=4c0bdf7b-4715-488b-bb37-9c59f6e8c0cf&iid=4c0bdf7b-4715-488b-bb37-9c59f6e8c0cf&sid=4c0bdf7b-4715-488b-bb37-9c59f6e8c0cf","uploadToServer":true}
+# environment
+INVOCATION_ID = 364b5a7afbed4249b166b13e873c3416
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = pop
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 10775
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/ryco/Documentos/Easys
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2674
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = pop:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/ryco
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/ryco/.config/Code/CachedData/f80445acd5a3dadef24aa209168452a3d97cc326
+# environment
+LOGNAME = ryco
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = pop
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b11cd3c6-0323-46e4-a933-18e1d5d92451.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = ryco
+# makefile
+.DEFAULT_GOAL := help
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 6)
+SPHINXOPTS = 
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-29d74bab-1.64.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/ryco/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 7)
+SPHINXBUILD = sphinx-build
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LC_ALL = C
+# environment
+DBUS_STARTER_BUS_TYPE = session
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# makefile (from 'Makefile', line 8)
+SOURCEDIR = source
+# environment
+VSCODE_PID = 10775
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=4bdaa245967ff67410e1c6b36214eb8b
+# variable set hash-table stats:
+# Load=103/1024=10%, Rehash=0, Collisions=14/138=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2051, inode 5917923): 7 files, no impossibilities.
+
+# 7 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%: Makefile
+#  recipe to execute (from 'Makefile', line 20):
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+all: Makefile
+#  Command line target.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'all'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := all
+# automatic
+# + := Makefile
+# automatic
+# | := 
+# automatic
+# < := Makefile
+# automatic
+# ^ := Makefile
+# automatic
+# ? := Makefile
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/17=12%
+#  recipe to execute (from 'Makefile', line 20):
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+.PHONY: help Makefile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Makefile:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 13):
+	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+ 
+# Load=6/1024=1%, Rehash=0, Collisions=0/21=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 15 / storage = 113 B / avg = 7 B
+# current buf: size = 8162 B / used = 113 B / count = 15 / avg = 7 B
+
+# strcache performance: lookups = 27 / hit rate = 44%
+# hash-table stats:
+# Load=15/8192=0%, Rehash=0, Collisions=1/27=4%
+# Finished Make data base on Tue Feb 22 11:39:13 2022
+
+ 
